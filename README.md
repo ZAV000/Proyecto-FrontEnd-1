@@ -9,5 +9,5 @@ Holaaa, este repositorio contiene mi primer proyecto del módulo 1 realizado dur
 ## Instalación:
 ### Para ver el proyecto en tu propia máquina, sigue los siguientes pasos:
 1. Clona el repositorio con tu terminal:
-          git clone https://github.com/ZAV000/FRONT-END-1.git
+          git clone https://github.com/ZAV000/Proyecto-FrontEnd-1.git
 2. Abre y explora los archivos :)
