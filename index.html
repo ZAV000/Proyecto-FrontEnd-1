@@ -60,7 +60,7 @@
         <p>Descubre cómo las emociones están relacionadas con el cerebro y el comportamiento humano.</p>
     </header>
 
-    <nav>
+    <nav aria-label="Navegación principal">
         <ul>
             <li><a href="#introduccion">Introducción</a></li>
             <li><a href="#cerebro-y-emociones">Cerebro y Emociones</a></li>
@@ -77,6 +77,7 @@
     </nav>
 
     <main>
+
         <section id="introduccion">
             <h2>Introducción a la Neurociencia de las Emociones</h2>
             <p>Las emociones son procesos complejos que involucran una interacción entre el cerebro, el cuerpo y el entorno. Según el libro "Emotions Revealed" de Paul Ekman, las emociones son fundamentales para la toma de decisiones, la adaptación y la supervivencia.</p>
@@ -119,6 +120,7 @@
         alt="imagen del cerebro y sus componentes emocionales" 
         width="400" 
         height="300">
+        <figurecaption>Sistema límbico</figurecaption>
         <!--Para que la imagen se vea bien en el navegador, 
         tuve que cambiar el tamaño de la imagen a pesar de que sé que eso se hace en CSS-->
         </section>
@@ -191,10 +193,10 @@
             <h2>Dejame saber tu opinión</h2>
             <form action="#" method="post">
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required><br><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"><br><br>
         
                 <label for="email">Correo electronico:</label>
-                <input type="email" id="email" name="email" required><br><br>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com"><br><br>
         
                 <label for="comentarios">Comentarios:</label><br>
                 <textarea id="comentarios" name="comentarios" rows="4" cols="50" required></textarea><br><br>
